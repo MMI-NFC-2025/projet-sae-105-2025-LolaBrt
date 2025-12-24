@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : BROUART 
+- PRÉNOM : LOLA
+- GROUPE : C1
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/v8Utg0esK1Hrn98Q8yn1rP/Margaret-Hamilton?node-id=0-1&t=SOKhf2T7LczLDznm-1

@@ -1,0 +1,31 @@
+/* colors */
+:root {
+    --color: hsl(5 80% 58%);
+    --color-3: hsl(3 45% 81%);
+    --color-4: hsl(0 0 6%);
+}
+
+/* typo */
+:root {
+    --font-height-lgd: 0.75rem;
+    --font-height-body: 1rem;
+    --font-height-h3: 1.25rem;
+    --font-height-h2: 2rem;
+    --font-height-h1: 3.75rem;
+    --font-line-height-h1: 3.75rem;
+
+    --font-family-body: Marope;
+    --font-family-title: Domine;
+    --font-weight-bold: bold;
+    --font-weight-light: light;
+    --font-weight-medium-italic: medium italic;
+    --font-weight-semi-bold: semiBold;
+}
+
+/* spaces */
+:root {
+    --margin: 1.5625rem;
+    --spc-s: 1.875rem;
+    --spc-mid: 5rem;
+    --spc-lg: 10rem;
+}

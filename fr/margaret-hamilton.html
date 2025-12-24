@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Site sensibilisant à l'effet Matilda à travers la vie de Margaret Hamilton, informaticienne pionnière et figure emblématique de l'histoire des femmes en science et technologie.">
+
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
+
+    <title>Margaret Hamilton - Margaret Hamilton</title>
+
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__link" href="/fr/index.html">
+            <img class="header__logo" src="/assets/favicons/favicon2.svg" alt="Logo du site" />
+        </a>
+    
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+        </button>
+    
+        <nav class="header__menu" id="mainNav" hidden>
+            <ul class="menu__list u-list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/margaret-hamilton.html">Margaret Hamilton</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/heroines-scientifiques.html">Héroïnes scientifiques</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/matilda-through-ages.html">Les Matilda à travers les âges</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="index__hero" id="hero">
+            <h1 class="index__hero--title">Margaret Hamilton</h1>
+            <p class="index__hero--intro">
+                a travaillé dans l’ombre 
+                dans les années 1960, lorsqu’elle a dirigé la création du logiciel qui a permis 
+                à Apollo 11 d’alunir sans encombre. Pourtant, son rôle n’a été pleinement reconnu que plusieurs décennies plus tard, lorsqu’elle a reçu la Médaille présidentielle de la Liberté en 2016 : 
+                un exemple typique de l’effet Matilda, 
+                où les femmes scientifiques sont célébrées bien après leurs exploits.
+            </p>
+        </div>
+
+        <ul class="card u-list-unstyled">
+            <li class="card__item">
+                <a href="/fr/programmation.html" class="card__link">
+                    <img class="card__image" src="/assets/img/m_h_mit.webp" alt="Photo de Margaret Hamilton au MIT" />
+                    <h3 class="card__title">Précurseure de la programmation</h3>
+                    <p class="card__legend">
+                        Comment Margaret Hamilton a posé les bases du software engineering
+                        et ouvert la voie aux métiers de la programmation.
+                    </p>
+                </a>
+            </li>
+            <li class="card__item">
+                <a href="/fr/apollo11.html" class="card__link">
+                    <img class="card__image" src="/assets/img/apollo11.webp" alt="Photo du décollage de Apollo 11" />
+                    <h3 class="card__title">Sauver Apollo 11</h3>
+                    <p class="card__legend">
+                        La conception du logiciel du module lunaire qui a permis d’éviter un crash pendant l’alunissage, sauvant
+                        ainsi la
+                        mission Apollo 11.
+                    </p>
+                </a>
+            </li>
+        </ul>
+
+        <div class="seeMore">
+            <h2 class="seeMore__title">Pour aller plus loin:</h2>
+            <ul class="seeMore__list">
+                <li class="seeMore__item">
+                    <a 
+                        class="seeMore__link" 
+                        href="https://futurism.com/margaret-hamilton-the-untold-story-of-the-woman-who-took-us-to-the-moon"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        &rarr; Interview de Margaret Hamilton
+                    </a>
+                </li>
+                <li class="seeMore__item">
+                    <a class="seeMore__link"
+                        href="https://www.youtube.com/watch?v=6bVRytYSTEk"
+                        target="_blank" rel="noopener noreferrer">
+                        &rarr; Interview vidéo de Margaret Hamilton (en anglais !)
+                    </a>
+                </li>
+                <li class="seeMore__item">
+                    <a class="seeMore__link"
+                        href="https://www.astroshop.de/fr/magazine/astuces-pratiques/contexte-histoires/rocket-girls-apollo-et-les-femmes/i,1234"
+                        target="_blank" rel="noopener noreferrer">
+                        &rarr; Article sur les calculatrices humaines de la NASA
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <a href="#hero" class="ancre">
+        <img src="/assets/icons/ancre.svg" alt="Retour en haut" width="24" height="auto">
+    </a>
+
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="footer__list u-list-unstyled">
+                <li class="footer__item">
+                    <a class="footer__link" href="/fr/glossaire.html">Glossaire</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="/fr/plus-de-matilda.html">Plus de Matilda</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="/fr/contact.html">Contact</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="/fr/about.html">À propos</a>
+                </li>
+            </ul>
+        </nav>
+    
+        <p class="footer__ccl">
+            Lola Brouart
+            <br />
+            Projet réalisé en 2025 dans le cadre d’un exercice pédagogique au département
+            <a class="footer__link" href="https://mmi.univ-fcomte.fr/">MMi de Montbéliard</a>.
+            <a class="footer__link" href="mailto:lola.brouart@edu.univ-fcomte.fr">lola.brouart@edu.univ-fcomte.fr</a>
+        </p>
+    
+    
+    </footer>
+</body>
