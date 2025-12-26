@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Site sensibilisant à l'effet Matilda à travers la vie de Margaret Hamilton, informaticienne pionnière et figure emblématique de l'histoire des femmes en science et technologie.">
+
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
+
+    <title>Margaret Hamilton - Accueil</title>
+
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__link" href="/en/index.html">
+            <img class="header__logo" src="/assets/favicons/favicon2.svg" alt="Site logo" />
+        </a>
+
+        
+        <a class="language" href="/en/index.html">EN</a>
+        <a class="language" href="/fr/index.html">FR</a>
+
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+        </button>
+
+        <nav class="header__menu" id="mainNav" hidden>
+            <ul class="menu__list u-list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/margaret-hamilton.html">Margaret Hamilton</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/heroines-scientifiques.html">Scientific Heroines</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/matilda-through-ages.html">Matildas Through the Ages</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="home__hero" id="hero">
+            <img class="hero__image" src="/assets/img/m_h_books.webp"
+                alt="Photo of Margaret Hamilton working on the Apollo 11 mission code" />
+            <h1 class="hero__title">Margaret Hamilton</h1>
+            <p class="hero__subtitle">The hidden side of the Apollo 11 mission</p>
+        </div>
+
+        <section class="home__intro">
+            <h2 class="home__intro--title">
+                Did you know that the world of science is sometimes unfair?</h2>
+            <p class="home__intro--text">
+                The invisibility of women scientists
+                and their work is very, too frequent.
+                This phenomenon is so widespread that it has
+                been given a name: the Matilda effect.
+            </p>
+            <a class="home__intro--link" href="https://www.youtube.com/watch?v=j0YrMa7F45g" target="_blank"
+                rel="noopener noreferrer">
+                &rarr; documentary Les Fabuleuses
+            </a>
+            <p class="home__intro--text">
+                This means that the important work
+                of many women scientists is often minimized, forgotten, or even attributed to men. It's as if
+                part of
+                history was erased.
+            </p>
+            <a class="home__intro--link" href="https://www.brut.media/fr/articles/effet-matilda-et-les-femmes-alors"
+                target="_blank" rel="noopener noreferrer">
+                &rarr; More on the Matilda effect
+            </a>
+
+            <a class="CTA" href="/en/margaret-hamilton.html">Read more about Margaret Hamilton!
+            </a>
+
+            <p class="home__intro--text">
+                Margaret Hamilton is one of those pioneers who has long been under-recognized. A brilliant engineer at
+                NASA, she
+                played an essential role in the Apollo 11 mission, the one that sent the first men to the Moon.
+                Yet, her name
+                remained in the shadows for decades.
+            </p>
+        </section>
+
+        <ul class="u-list-unstyled">
+            <h2 class="list__title">Margaret Hamilton</h2>
+            <li class="card">
+                <a href="/en/programmation.html" class="card__link">
+                    <img class="card__image" src="/assets/img/m_h_mit.webp" alt="Photo of Margaret Hamilton at MIT" />
+                    <h3 class="card__title">Pioneer of Programming</h3>
+                    <p class="card__legend">
+                        How Margaret Hamilton laid the foundations of software engineering
+                        and paved the way for programming careers.
+                    </p>
+                </a>
+            </li>
+            <li class="card">
+                <a href="/en/apollo11.html" class="card__link">
+                    <img class="card__image" src="/assets/img/apollo11.webp" alt="Photo of the Apollo 11 launch" />
+                    <h3 class="card__title">Saving Apollo 11</h3>
+                    <p class="card__legend">
+                        The design of the lunar module software that prevented a crash during landing, thus saving the
+                        Apollo 11 mission.
+                    </p>
+                </a>
+            </li>
+        </ul>
+
+        <img class="ornement"
+            src="/assets/icons/separateur.svg"
+        />
+
+        <ul class="card u-list-unstyled">
+            <h2 class="list__title">Scientific Heroines</h2>
+            <li class="card__item">
+                <a href="/en/hidden-figures.html" class="card__link">
+                    <img class="card__image" src="/assets/img/hidden_figures_thumbnail.webp" alt="Poster of the movie Hidden Figures" />
+                    <h3 class="card__title">Hidden Figures</h3>
+                    <p class="card__legend">
+                        The struggle of African-American women at NASA, parallel to Hamilton's: their contribution to space exploration despite
+                        discrimination.
+                    </p>
+                </a>
+            </li>
+            <li class="card__item">
+                <a href="/en/lumieres-feminines.html" class="card__link">
+                    <img class="card__image" src="/assets/img/lights_hero.webp" alt="Photo of Marie Curie" />
+                    <h3 class="card__title">Feminine Lights</h3>
+                    <p class="card__legend">
+                        The invisibility of women in science and why it is necessary
+                        to talk about it
+                    </p>
+                </a>
+            </li>
+            <li class="card__item">
+                <a href="/en/science-au-fem.html" class="card__link">
+                    <img class="card__image" src="/assets/img/litt_hero.webp" alt="Photo of Margaret Rossiter" />
+                    <h3 class="card__title">Science Told in the Feminine</h3>
+                    <p class="card__legend">
+                        Analysis of the representation of women scholars in fiction, often isolated or marginalized, reflecting the obstacles
+                        encountered in reality.
+                    </p>
+                </a>
+            </li>
+        </ul>
+    </main>
+
+    <a href="#hero" class="ancre">
+        <img src="/assets/icons/ancre.svg" alt="Back to the top" width="24" height="auto">
+    </a>
+
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="footer__list u-list-unstyled">
+                <li class="footer__item">
+                    <a class="footer__link" href="/en/glossaire.html">Glossary</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="/en/plus-de-matilda.html">More Matildas</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="/en/contact.html">Contact</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="/en/about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+
+        <p class="footer__ccl">
+            Lola Brouart
+            <br />
+            Project carried out in 2025 as part of an educational exercise in the department 
+            <a class="footer__link" href="https://mmi.univ-fcomte.fr/">MMi de Montbéliard</a>.
+            <a class="footer__link" href="mailto:lola.brouart@edu.univ-fcomte.fr">lola.brouart@edu.univ-fcomte.fr</a>
+        </p>
+
+
+    </footer>
+</body>
+
+</html>
