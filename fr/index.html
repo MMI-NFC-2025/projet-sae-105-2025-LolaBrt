@@ -32,6 +32,9 @@
         <a class="language" href="/fr/index.html">FR</a>
 
         <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
         </button>
 
         <nav class="header__menu" id="mainNav" hidden>
@@ -93,77 +96,83 @@
             </p>
         </section>
 
-        <ul class="u-list-unstyled">
-            <h2 class="list__title">Margaret Hamilton</h2>
-            <li class="card">
-                <a href="/fr/programmation.html" class="card__link">
-                    <img class="card__image" src="/assets/img/m_h_mit.webp" alt="Photo de Margaret Hamilton au MIT"
-                        loading="lazy" />
-                    <h3 class="card__title">Précurseure de la programmation</h3>
-                    <p class="card__legend">
-                        Comment Margaret Hamilton a posé les bases du software engineering
-                        et ouvert la voie aux métiers de la programmation.
-                    </p>
-                </a>
-            </li>
-            <li class="card">
-                <a href="/fr/apollo11.html" class="card__link">
-                    <img class="card__image" src="/assets/img/apollo11.webp" alt="Photo du décollage de Apollo 11"
-                        loading="lazy" />
-                    <h3 class="card__title">Sauver Apollo 11</h3>
-                    <p class="card__legend">
-                        La conception du logiciel du module lunaire qui a permis d’éviter un crash pendant l’alunissage,
-                        sauvant ainsi la
-                        mission Apollo 11.
-                    </p>
-                </a>
-            </li>
-        </ul>
+        <section class="cardNav">
+            <h2 class="cardNav__title">Margaret Hamilton</h2>
+            <ul class="u-list-unstyled">
+                <li class="card">
+                    <a href="/fr/programmation.html" class="card__link">
+                        <img class="card__image" src="/assets/img/m_h_mit.webp" alt="Photo de Margaret Hamilton au MIT"
+                            loading="lazy" />
+                        <h3 class="card__title">Précurseure de la programmation</h3>
+                        <p class="card__legend">
+                            Comment Margaret Hamilton a posé les bases du software engineering
+                            et ouvert la voie aux métiers de la programmation.
+                        </p>
+                    </a>
+                </li>
+                <li class="card">
+                    <a href="/fr/apollo11.html" class="card__link">
+                        <img class="card__image" src="/assets/img/apollo11.webp" alt="Photo du décollage de Apollo 11"
+                            loading="lazy" />
+                        <h3 class="card__title">Sauver Apollo 11</h3>
+                        <p class="card__legend">
+                            La conception du logiciel du module lunaire qui a permis d’éviter un crash pendant
+                            l’alunissage,
+                            sauvant ainsi la
+                            mission Apollo 11.
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </section>
 
         <img class="ornement" src="/assets/icons/separateur.svg" />
 
-        <ul class="card u-list-unstyled">
-            <h2 class="list__title">Héroïnes scientifiques</h2>
-            <li class="card__item">
-                <a href="/fr/hidden-figures.html" class="card__link">
-                    <img class="card__image" src="/assets/img/hidden_figures_thumbnail.webp"
-                        alt="Affiche du film Les figures de l'ombre" loading="lazy" />
-                    <h3 class="card__title">Les figures de l'ombre</h3>
-                    <p class="card__legend">
-                        Le combat de femmes afro-américaines à la NASA, parallèle à celui
-                        de Hamilton : leur contribution à la conquête spatiale malgré
-                        les discriminations.
-                    </p>
-                </a>
-            </li>
-            <li class="card__item">
-                <a href="/fr/lumieres-feminines.html" class="card__link">
-                    <img class="card__image" src="/assets/img/lights_hero.webp" alt="Photo de Marie Curie"
-                        loading="lazy" />
-                    <h3 class="card__title">Lumières féminines</h3>
-                    <p class="card__legend">
-                        L’invisibilisation des femmes de science et pourquoi il est nécessaire
-                        d’en parler
-                    </p>
-                </a>
-            </li>
-            <li class="card__item">
-                <a href="/fr/science-au-fem.html" class="card__link">
-                    <img class="card__image" src="/assets/img/litt_hero.webp" alt="Photo de Margaret Rossiter"
-                        loading="lazy" />
-                    <h3 class="card__title">La science se réconte au féminin</h3>
-                    <p class="card__legend">
-                        Analyse de la représentation des femmes savantes en fiction, souvent isolées ou marginalisées,
-                        reflet des obstacles
-                        rencontrés dans la réalité.
-                    </p>
-                </a>
-            </li>
-        </ul>
+        <section class="cardNav">
+            <h2 class="cardNav__title">Héroïnes scientifiques</h2>
+            <ul class="card u-list-unstyled">
+                <li class="card__item">
+                    <a href="/fr/hidden-figures.html" class="card__link">
+                        <img class="card__image" src="/assets/img/hidden_figures_thumbnail.webp"
+                            alt="Affiche du film Les figures de l'ombre" loading="lazy" />
+                        <h3 class="card__title">Les figures de l'ombre</h3>
+                        <p class="card__legend">
+                            Le combat de femmes afro-américaines à la NASA, parallèle à celui
+                            de Hamilton : leur contribution à la conquête spatiale malgré
+                            les discriminations.
+                        </p>
+                    </a>
+                </li>
+                <li class="card__item">
+                    <a href="/fr/lumieres-feminines.html" class="card__link">
+                        <img class="card__image" src="/assets/img/lights_hero.webp" alt="Photo de Marie Curie"
+                            loading="lazy" />
+                        <h3 class="card__title">Lumières féminines</h3>
+                        <p class="card__legend">
+                            L’invisibilisation des femmes de science et pourquoi il est nécessaire
+                            d’en parler
+                        </p>
+                    </a>
+                </li>
+                <li class="card__item">
+                    <a href="/fr/science-au-feminin.html" class="card__link">
+                        <img class="card__image" src="/assets/img/litt_hero.webp" alt="Photo de Margaret Rossiter"
+                            loading="lazy" />
+                        <h3 class="card__title">La science se réconte au féminin</h3>
+                        <p class="card__legend">
+                            Analyse de la représentation des femmes savantes en fiction, souvent isolées ou
+                            marginalisées,
+                            reflet des obstacles
+                            rencontrés dans la réalité.
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </section>
     </main>
 
     <a href="#hero" class="ancre">
-        <img src="/assets/icons/ancre.svg" alt="Retour en haut" width="24" height="auto">
+        <img src="/assets/icons/ancre.svg" alt="Retour en haut" width="24" height="24">
     </a>
 
     <footer class="footer">

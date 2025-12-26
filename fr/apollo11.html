@@ -32,6 +32,9 @@
         <a class="language" href="/fr/index.html">FR</a>
 
         <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
         </button>
 
         <nav class="header__menu" id="mainNav" hidden>
@@ -120,26 +123,28 @@
                 ce succès historique.
             </p>
 
-            <ul class="u-list-unstyled">
-                <h2 class="list__title">À lire aussi</h2>
-                <li class="card">
-                    <a href="/fr/programmation.html" class="card__link">
-                        <img class="card__image" src="/assets/img/m_h_mit.webp" alt="Photo de Margaret Hamilton au MIT"
-                            loading="lazy" />
-                        <h3 class="card__title">Précurseure de la programmation</h3>
-                        <p class="card__legend">
-                            Comment Margaret Hamilton a posé les bases du software engineering
-                            et ouvert la voie aux métiers de la programmation.
-                        </p>
-                    </a>
-                </li>
-            </ul>
+            <section class="cardNav">
+                <h2 class="cardNav__title">À lire aussi</h2>
+                <ul class="u-list-unstyled">
+                    <li class="card">
+                        <a href="/fr/programmation.html" class="card__link">
+                            <img class="card__image" src="/assets/img/m_h_mit.webp"
+                                alt="Photo de Margaret Hamilton au MIT" loading="lazy" />
+                            <h3 class="card__title">Précurseure de la programmation</h3>
+                            <p class="card__legend">
+                                Comment Margaret Hamilton a posé les bases du software engineering
+                                et ouvert la voie aux métiers de la programmation.
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
 
         </article>
     </main>
 
     <a href="#hero" class="ancre">
-        <img src="/assets/icons/ancre.svg" alt="Retour en haut" width="24" height="auto">
+        <img src="/assets/icons/ancre.svg" alt="Retour en haut" width="24" height="24">
     </a>
 
     <footer class="footer">
