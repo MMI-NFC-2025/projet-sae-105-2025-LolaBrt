@@ -27,26 +27,34 @@
             <img class="header__logo" src="/assets/favicons/favicon2.svg" alt="Logo du site" />
         </a>
 
-
-        <a class="language" href="/en/index.html">EN</a>
-        <a class="language" href="/fr/index.html">FR</a>
+        <div class="language-switcher">
+            <a class="language" href="/en/index.html">EN</a>
+            <span class="language-separator">/</span>
+            <a class="language" href="/fr/index.html">FR</a>
+        </div>
 
         <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
+            <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+            <span class="menu-btn__bar menu-btn__bar--middle" aria-hidden="true"></span>
+            <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
         </button>
 
         <nav class="header__menu" id="mainNav" hidden>
+            <div class="menu__background"></div>
+
+            <button class="menu-back" aria-label="fermer le menu">
+                <img src="/assets/icons/menu_back.svg" alt="retour" />
+            </button>
+
             <ul class="menu__list u-list-unstyled">
                 <li class="menu__item">
-                    <a class="menu__link" href="/fr/margaret-hamilton.html">Margaret Hamilton</a>
+                    <a class="menu__link" href="/fr/margaret-hamilton.html">&rarr; Margaret Hamilton</a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="/fr/heroines-scientifiques.html">Héroïnes scientifiques</a>
+                    <a class="menu__link" href="/fr/heroines-scientifiques.html">&rarr; Héroïnes scientifiques</a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="/fr/matilda-through-ages.html">Les Matilda à travers les âges</a>
+                    <a class="menu__link" href="/fr/matilda-through-ages.html">&rarr; Les Matilda à travers les âges</a>
                 </li>
             </ul>
         </nav>

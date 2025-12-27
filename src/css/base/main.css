@@ -43,10 +43,12 @@ html {
 
 body {
     margin: var(--margin);
+    margin-right: 0;
     font-family: var(--font-family-body);
     font-size: 1rem;
     color: var(--color-light);
     background-color: var(--color-dark);
+    overflow-x: hidden;
 }
 
 img:not([src$=".svg"]) {

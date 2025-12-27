@@ -1,0 +1,22 @@
+.ancre {
+    position: fixed;
+    bottom: var(--margin);
+    right: var(--margin);
+    display: inline-block;
+    background: none;
+    z-index: 50;
+        transition: transform .18s ease, opacity .18s ease;
+}
+
+.ancre img {
+    display: block;
+    width: 54px;
+    height: auto;
+    pointer-events: none;
+}
+
+.ancre:focus,
+.ancre:hover {
+    transform: translateY(-3px);
+    opacity: 0.95;
+}

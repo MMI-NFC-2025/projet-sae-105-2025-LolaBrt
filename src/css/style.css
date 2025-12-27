@@ -15,8 +15,9 @@
 @import "layout/header.css";
 @import "layout/footer.css";
 @import "layout/section.css";
+@import "layout/hero.css";
 
 /* Components */
-@import "components/hero.css";
 @import "components/CTA.css";
 @import "components/card.css";
+@import "components/ancre.css";
