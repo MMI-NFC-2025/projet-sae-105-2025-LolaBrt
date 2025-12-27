@@ -81,12 +81,18 @@
 
 .hero__title {
     position: relative;
-    margin-top: 400px;
+    margin-top: 300px;
     margin-bottom: 0;
     color: var(--color-red);
     z-index: 3;
     max-width: 60%;
     line-height: 1;
+}
+
+@media (min-width: 768px) {
+    .hero__title {
+        margin-top: 400px;
+    }
 }
 
 .hero__subtitle {
