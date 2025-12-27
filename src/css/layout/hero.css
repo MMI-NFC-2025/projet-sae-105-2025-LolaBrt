@@ -5,6 +5,7 @@
     padding-right: 0;
     display: flex;
     flex-direction: column;
+    z-index: -1;
 }
 
 @media (min-width: 768px) {
@@ -17,7 +18,7 @@
     position: absolute;
     top: 70px;
     right: 0;
-    width: 404px;
+    width: 324px;
     height: 479px;
     z-index: 1;
 }
@@ -26,14 +27,14 @@
     .hero__image-wrapper {
         top: 90px;
         right: 0;
-        width: 392px;
+        width: 312px;
         height: 599px;
     }
 }
 
 @media (min-width: 1024px) {
     .hero__image-wrapper {
-        width: 460px;
+        width: 380px;
         height: 718px;
     }
 }
@@ -52,7 +53,7 @@
     position: absolute;
     top: 0;
     left: -10px;
-    width: 379px;
+    width: 299px;
     height: 369px;
     background-color: var(--color-red);
     border-radius: 265px 0 0 265px;
@@ -61,7 +62,7 @@
 
 @media (min-width: 768px) {
     .hero__shape-back {
-        width: 417px;
+        width: 337px;
         height: 462px;
         left: -15px;
     }
@@ -69,7 +70,7 @@
 
 @media (min-width: 1024px) {
     .hero__shape-back {
-        width: 491px;
+        width: 411px;
         height: 554px;
         left: -20px;
     }
