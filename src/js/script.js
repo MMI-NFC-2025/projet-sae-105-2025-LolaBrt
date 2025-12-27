@@ -20,3 +20,46 @@ if (menuBack) {
         toggle.setAttribute("aria-expanded", "false");
     });
 }
+
+// Coloration automatique des termes du glossaire
+const glossaryTerms = [
+    'NASA',
+    'Apollo 11',
+    'Logiciel',
+    'Software',
+    'Bug',
+    'Algorithme',
+    'MIT',
+    'Programmation',
+    'Ingénierie logicielle',
+    'Module Lunaire',
+    'LEM',
+    'Effet Matilda',
+    'STEM',
+    'Ségrégation raciale',
+    'Discrimination de genre'
+];
+
+// Attendre que le DOM soit chargé
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', highlightGlossaryTerms);
+} else {
+    highlightGlossaryTerms();
+}
+
+function highlightGlossaryTerms() {
+    // Sélectionner tous les paragraphes (sauf ceux du glossaire lui-même)
+    const paragraphs = document.querySelectorAll('p:not(.glossaire__definition)');
+
+    paragraphs.forEach(paragraph => {
+        let html = paragraph.innerHTML;
+
+        glossaryTerms.forEach(term => {
+            // Créer une regex pour matcher le terme entier (avec limites de mots)
+            const regex = new RegExp(`\\b(${term})\\b`, 'gi');
+            html = html.replace(regex, '<span class="glossary-highlight">$1</span>');
+        });
+
+        paragraph.innerHTML = html;
+    });
+}

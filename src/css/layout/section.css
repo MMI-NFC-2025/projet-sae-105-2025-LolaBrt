@@ -1,0 +1,9 @@
+.home__intro {
+    padding-bottom: var(--spc-lg);
+}
+
+.home__intro--link {
+    padding-bottom: var(--spc-s);
+    display: flex;
+}
+

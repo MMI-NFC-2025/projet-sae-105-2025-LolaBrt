@@ -3,8 +3,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 90px;
-    padding: var(--margin) var(--margin);
+    height: 70px;
+    padding: 1rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,7 +21,7 @@
 }
 
 .header__logo {
-    height: 35px;
+    height: 40px;
     width: auto;
     flex-shrink: 0;
 }
@@ -34,8 +34,8 @@
 
 .menu-btn {
     position: relative;
-    width: 32px;
-    height: 24px;
+    width: 28px;
+    height: 20px;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -92,11 +92,21 @@
 }
 
 .menu-btn__bar--middle {
-    top: 11px;
+    top: 9px;
 }
 
 .menu-btn__bar--bottom {
-    top: 22px;
+    top: 18px;
+}
+
+@media (min-width: 768px) {
+    .menu-btn__bar--middle {
+        top: 11px;
+    }
+    
+    .menu-btn__bar--bottom {
+        top: 22px;
+    }
 }
 
 /* Menu navigation */

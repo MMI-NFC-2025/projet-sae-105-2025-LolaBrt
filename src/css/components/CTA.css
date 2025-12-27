@@ -10,6 +10,7 @@
     font-size: var(--font-height-h3);
     line-height: var(--font-line-height-h3);
     font-weight: var(--font-weight-bold);
+    margin-bottom: var(--spc-s);
 }
 
 .CTA:hover {
