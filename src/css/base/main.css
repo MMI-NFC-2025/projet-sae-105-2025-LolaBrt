@@ -7,6 +7,38 @@
 /* Scroll fluide pour les ancres */
 html {
     scroll-behavior: smooth;
+    /* ÉTAPE 1 : Taille de base pour mobile (320px et +)
+       On commence petit pour les petits écrans.
+       Toutes les valeurs en rem vont se baser sur 14px */
+    font-size: 14px;
+}
+
+/* ÉTAPE 2 : Tablette (768px et +)
+   Quand l'écran fait au moins 768px de large,
+   on augmente la taille de base à 16px.
+   Effet : Tous les rem deviennent automatiquement plus grands (ex: 2rem = 32px au lieu de 28px) */
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/* ÉTAPE 3 : Desktop (1024px et +)
+   Pour les grands écrans, on passe à 18px.
+   Effet : Le contenu grossit encore, parfait pour la lisibilité sur grand écran */
+@media (min-width: 1024px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+/* ÉTAPE 4 : Grands écrans (1440px et +)
+   Sur les très grands écrans, on peut aller jusqu'à 20px
+   pour éviter que le texte paraisse trop petit */
+@media (min-width: 1440px) {
+    html {
+        font-size: 20px;
+    }
 }
 
 body {
