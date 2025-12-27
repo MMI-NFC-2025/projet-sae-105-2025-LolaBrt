@@ -1,13 +1,18 @@
 .CTA {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: var(--color-red);
+    color: var(--color-light);
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 60px;
     transition: background-color 0.3s;
+    font-family: var(--font-family-title);
+    font-size: var(--font-height-h3);
+    line-height: var(--font-line-height-h3);
+    font-weight: var(--font-weight-bold);
 }
 
 .CTA:hover {
-    background-color: #0056b3;
+    background-color: var(--color-light);
+    color: var(--color-red);
 }

@@ -1,8 +1,9 @@
 /* colors */
 :root {
-    --color: hsl(5 80% 58%);
-    --color-3: hsl(3 45% 81%);
-    --color-4: hsl(0 0 6%);
+    --color-red: hsl(5 80% 58%);
+    --color-light: hsl(3 45% 81%);
+    --color-light-30: hsl(3 45% 81% / 0.3);
+    --color-dark: hsl(0 0 6%);
 }
 
 /* typo */
@@ -14,8 +15,8 @@
     --font-height-h1: 3.75rem;
     --font-line-height-h1: 3.75rem;
 
-    --font-family-body: Marope;
-    --font-family-title: Domine;
+    --font-family-body: 'Manrope', sans-serif;
+    --font-family-title: 'Domine', serif;
     --font-weight-bold: bold;
     --font-weight-light: light;
     --font-weight-medium-italic: medium italic;

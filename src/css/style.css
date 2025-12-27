@@ -1,3 +1,7 @@
+/* Fonts */
+@import "base/fonts.css";
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+
 /* Vendors */
 @import "vendors/normalize.css";
 
@@ -13,7 +17,6 @@
 @import "layout/section.css";
 
 /* Components */
-@import "components/menu.css";
 @import "components/hero.css";
 @import "components/CTA.css";
 @import "components/card.css";
