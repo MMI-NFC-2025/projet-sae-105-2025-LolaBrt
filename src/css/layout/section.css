@@ -1,5 +1,5 @@
 .home__intro {
-    padding-bottom: var(--spc-lg);
+    padding-bottom: var(--spc-s);
 }
 
 .home__intro--link {
@@ -18,4 +18,9 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+}
+
+.ornement {
+    display: block;
+    margin: var(--spc-mid) auto;
 }
