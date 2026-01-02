@@ -1,9 +1,88 @@
 <!DOCTYPE html>
-<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-<title>404 - Page Non trouvée</title>
-<h1>Page Non trouvée</h1>
-<form action="https://duckduckgo.com/" method="GET" x-data="{ q:'', }" x-on:submit="q = q + ' site:mmimontbeliard.com'">
-    <label for="q">Text à chercher :</label>
-    <input type="text" id="q" name="q" x-model="q">
-    <button type="submit">Rechercher</button>
-</form>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page non trouvée - Site Margaret Hamilton">
+
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
+
+    <title>404 - Page Non trouvée</title>
+
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__link" href="/fr/index.html">
+            <img class="header__logo" src="/assets/favicons/favicon2.svg" alt="Logo du site" />
+        </a>
+
+        <div class="language-switcher">
+            <a class="language" href="/en/index.html">EN</a>
+            <span class="language-separator">/</span>
+            <a class="language" href="/fr/index.html">FR</a>
+        </div>
+
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+            <span class="menu-btn__bar menu-btn__bar--middle" aria-hidden="true"></span>
+            <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+        </button>
+
+        <nav class="header__menu" id="mainNav" hidden>
+            <div class="menu__background"></div>
+
+            <button class="menu-back" aria-label="fermer le menu">
+                <img src="/assets/icons/menu_back.svg" alt="retour" />
+            </button>
+
+            <ul class="menu__list u-list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/margaret-hamilton.html">&rarr; Margaret Hamilton</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/heroines-scientifiques.html">&rarr; Héroïnes scientifiques</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/matilda-through-ages.html">&rarr; Matildas à travers les âges</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="error-404">
+            <h1 class="error-404__title">404</h1>
+            <p class="error-404__text">Page Non trouvée</p>
+            
+            <form class="error-404__form" action="https://duckduckgo.com/" method="GET" x-data="{ q:'', }" x-on:submit="q = q + ' site:mmimontbeliard.com'">
+                <label class="error-404__label" for="q">Text à chercher :</label>
+                <input class="error-404__input" type="text" id="q" name="q" x-model="q">
+                <button class="error-404__button" type="submit">Rechercher</button>
+            </form>
+
+            <a class="CTA" href="/fr/index.html">Retour à l'accueil</a>
+        </section>
+    </main>
+
+    <footer class="error-404__footer">
+            <img class="error-404__footer--logo" src="/assets/img/logo-mmi.webp" alt="Logo Métiers du Multimédia et de l'Internet" />
+        <p class="error-404__footer--text">Lola Brouart MMI1 C1</p>
+        <div class="error-404__footer--contact">
+            <a class="error-404__footer--link" href="mailto:lola.brouart@edu.univ-fcomte.fr">lola.brouart@edu.univ-fcomte.fr</a>
+        </div>
+        <p class="error-404__footer--legals">Projet réalisé dans le cadre d'un exercice pédagogique au <a class="error-404__footer--legals__link" href="http://mmimontbeliard.com/" target="_blank" rel="noopener noreferrer">département MMi de Montbéliard</a></p>
+    </footer>
+</body>
+
+</html>

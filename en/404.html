@@ -1,9 +1,50 @@
 <!DOCTYPE html>
-<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-<title>404 - Page Not Found</title>
-<h1>Page Not Found</h1>
-<form action="https://duckduckgo.com/" method="GET" x-data="{ q:'', }" x-on:submit="q = q + ' site:mmimontbeliard.com'">
-    <label for="q">Text to search:</label>
-    <input type="text" id="q" name="q" x-model="q">
-    <button type="submit">Search</button>
-</form>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page not found - Margaret Hamilton website">
+
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
+
+    <title>404 - Page Not Found</title>
+
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <section class="error-404">
+            <h1 class="error-404__title">404</h1>
+            <p class="error-404__text">Page Not Found</p>
+            
+            <form class="error-404__form" action="https://duckduckgo.com/" method="GET" x-data="{ q:'', }" x-on:submit="q = q + ' site:mmimontbeliard.com'">
+                <label class="error-404__label" for="q">Text to search:</label>
+                <input class="error-404__input" type="text" id="q" name="q" x-model="q">
+                <button class="error-404__button" type="submit">Search</button>
+            </form>
+
+            <a class="CTA" href="/en/index.html">Back to Home</a>
+        </section>
+    </main>
+
+    <footer class="error-404">
+        <img class="error-404__footer--logo" src="/assets/img/logos/logo mmi blanc.png" alt="Métiers du Multimédia et de l'Internet logo" />
+        <p class="error-404__footer--text">Lola Brouart MMI1 C1</p>
+        <div class="error-404__footer--contact">
+            <a class="error-404__footer--link" href="mailto:lola.brouart@edu.univ-fcomte.fr">lola.brouart@edu.univ-fcomte.fr</a>
+        </div>
+        <p class="error-404__footer--legals">Project carried out as part of an educational exercise at the <a class="error-404__footer--legals__link" href="http://mmimontbeliard.com/" target="_blank" rel="noopener noreferrer">MMi department of Montbéliard</a></p>
+    </footer>
+</body>
+
+</html>
