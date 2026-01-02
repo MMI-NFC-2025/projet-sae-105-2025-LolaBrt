@@ -16,6 +16,8 @@
 @import "layout/footer.css";
 @import "layout/section.css";
 @import "layout/hero.css";
+@import "layout/menu.css";
+@import "layout/redirection.css";
 
 /* Components */
 @import "components/CTA.css";
