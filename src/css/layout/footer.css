@@ -4,8 +4,8 @@
     margin-right: 0;
     margin-bottom: 0;
     background-color: var(--color-light-30);
-    border-top-left-radius: 90px;
-    border-top-right-radius: 90px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
 }
 
 @media (min-width: 768px) {

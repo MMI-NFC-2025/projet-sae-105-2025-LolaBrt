@@ -133,8 +133,8 @@
     position: absolute;
     top: 9em;
     left: 0;
-    width: 70%;
-    height: 23em;
+    width: 75%;
+    height: 24em;
     background-color: var(--color-red);
     border-radius: 0 300px 300px 0;
     z-index: -1;

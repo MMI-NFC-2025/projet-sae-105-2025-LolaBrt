@@ -19,6 +19,7 @@
 @import "layout/menu.css";
 @import "layout/redirection.css";
 @import "layout/error-404.css";
+@import "layout/seeMore.css";
 
 /* Components */
 @import "components/CTA.css";
