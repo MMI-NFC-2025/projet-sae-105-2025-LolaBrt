@@ -62,6 +62,7 @@
 
     <main>
         <div class="index__hero" id="hero">
+            <div class="index__hero--shape-back"></div>
             <h1 class="index__hero--title">Margaret Hamilton</h1>
             <p class="index__hero--intro">
                 a travaillé dans l’ombre
@@ -72,33 +73,45 @@
                 où les femmes scientifiques sont célébrées bien après leurs exploits.
             </p>
         </div>
-
-        <ul class="card u-list-unstyled">
-            <li class="card__item">
-                <a href="/fr/programmation.html" class="card__link">
-                    <img class="card__image" src="/assets/img/m_h_mit.webp" alt="Photo de Margaret Hamilton au MIT"
-                        loading="lazy" />
-                    <h3 class="card__title">Précurseure de la programmation</h3>
-                    <p class="card__legend">
-                        Comment Margaret Hamilton a posé les bases du software engineering
-                        et ouvert la voie aux métiers de la programmation.
-                    </p>
-                </a>
-            </li>
-            <li class="card__item">
-                <a href="/fr/apollo11.html" class="card__link">
-                    <img class="card__image" src="/assets/img/apollo11.webp" alt="Photo du décollage de Apollo 11"
-                        loading="lazy" />
-                    <h3 class="card__title">Sauver Apollo 11</h3>
-                    <p class="card__legend">
-                        La conception du logiciel du module lunaire qui a permis d’éviter un crash pendant l’alunissage,
-                        sauvant
-                        ainsi la
-                        mission Apollo 11.
-                    </p>
-                </a>
-            </li>
-        </ul>
+        <section class="cardNav">
+            <ul class="u-list-unstyled card__list">
+                <li class="card">
+                    <a href="/fr/programmation.html" class="card__link">
+                        <img class="card__image" src="/assets/img/m_h_mit.webp" alt="Photo de Margaret Hamilton au MIT"
+                            loading="lazy" />
+                        <div class="card__content">
+                            <div class="card__circle"></div>
+                            <div class="card__text">
+                                <h3 class="card__title">Précurseure de la programmation</h3>
+                                <p class="card__legend">
+                                    Comment Margaret Hamilton a posé les bases du software engineering
+                                    et ouvert la voie aux métiers de la programmation.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="card">
+                    <a href="/fr/apollo11.html" class="card__link">
+                        <img class="card__image" src="/assets/img/apollo11.webp" alt="Photo du décollage de Apollo 11"
+                            loading="lazy" />
+                        <div class="card__content">
+                            <div class="card__circle"></div>
+                            <div class="card__text">
+                                <h3 class="card__title">Sauver Apollo 11</h3>
+                                <p class="card__legend">
+                                    La conception du logiciel du module lunaire qui a permis d'éviter un crash pendant
+                                    l'alunissage,
+                                    sauvant
+                                    ainsi la
+                                    mission Apollo 11.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
 
         <div class="seeMore">
             <h2 class="seeMore__title">Pour aller plus loin:</h2>
@@ -149,13 +162,14 @@
             </ul>
         </nav>
 
-        <p class="footer__ccl">
-            Lola Brouart
+        <div class="footer__ccl">
+            <p>Lola Brouart</p>
             <br />
-            Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département <a class="footer__link"
-                href="https://mmi.univ-fcomte.fr/">MMi de Montbéliard</a>
-            <a class="footer__link" href="mailto:lola.brouart@edu.univ-fcomte.fr">lola.brouart@edu.univ-fcomte.fr</a>
-        </p>
+            <p>Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département <a
+                    class="footer__link--ext" href="https://mmi.univ-fcomte.fr/">MMi de Montbéliard</a></p>
+            <a class="footer__link--ext"
+                href="mailto:lola.brouart@edu.univ-fcomte.fr">lola.brouart@edu.univ-fcomte.fr</a>
+        </div>
 
 
     </footer>

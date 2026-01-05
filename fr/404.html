@@ -64,8 +64,9 @@
         <section class="error-404">
             <h1 class="error-404__title">404</h1>
             <p class="error-404__text">Page Non trouvée</p>
-            
-            <form class="error-404__form" action="https://duckduckgo.com/" method="GET" x-data="{ q:'', }" x-on:submit="q = q + ' site:mmimontbeliard.com'">
+
+            <form class="error-404__form" action="https://duckduckgo.com/" method="GET" x-data="{ q:'', }"
+                x-on:submit="q = q + ' site:mmimontbeliard.com'">
                 <label class="error-404__label" for="q">Text à chercher :</label>
                 <input class="error-404__input" type="text" id="q" name="q" x-model="q">
                 <button class="error-404__button" type="submit">Rechercher</button>
@@ -76,12 +77,16 @@
     </main>
 
     <footer class="error-404__footer">
-            <img class="error-404__footer--logo" src="/assets/img/logo-mmi.webp" alt="Logo Métiers du Multimédia et de l'Internet" />
+        <img class="error-404__footer--logo" src="/assets/img/logo-mmi.webp"
+            alt="Logo Métiers du Multimédia et de l'Internet" />
         <p class="error-404__footer--text">Lola Brouart MMI1 C1</p>
         <div class="error-404__footer--contact">
-            <a class="error-404__footer--link" href="mailto:lola.brouart@edu.univ-fcomte.fr">lola.brouart@edu.univ-fcomte.fr</a>
+            <a class="error-404__footer--link"
+                href="mailto:lola.brouart@edu.univ-fcomte.fr">lola.brouart@edu.univ-fcomte.fr</a>
         </div>
-        <p class="error-404__footer--legals">Projet réalisé dans le cadre d'un exercice pédagogique au <a class="error-404__footer--legals__link" href="http://mmimontbeliard.com/" target="_blank" rel="noopener noreferrer">département MMi de Montbéliard</a></p>
+        <p class="error-404__footer--legals">Projet réalisé dans le cadre d'un exercice pédagogique au <a
+                class="footer__link--ext" href="http://mmimontbeliard.com/" target="_blank"
+                rel="noopener noreferrer">département MMi de Montbéliard</a></p>
     </footer>
 </body>
 

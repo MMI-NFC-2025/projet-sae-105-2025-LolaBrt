@@ -6,6 +6,10 @@
     color: var(--color-red);
 }
 
+.cardNav {
+    margin-top: var(--spc-mid);
+    margin-bottom: var(--spc-mid);
+}
 .card {
     display: flex;
     gap: 13px;

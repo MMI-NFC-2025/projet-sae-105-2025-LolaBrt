@@ -1,8 +1,17 @@
 .footer {
     margin-top: var(--spc-lg);
+    margin-left: calc(var(--spc-margin) * -1);
+    margin-right: 0;
+    margin-bottom: 0;
     background-color: var(--color-light-30);
     border-top-left-radius: 90px;
     border-top-right-radius: 90px;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        margin-left: calc(var(--margin) * -1);
+    }
 }
 
 .footer__nav {

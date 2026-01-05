@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     z-index: -1;
+    overflow: hidden;
 }
 
 @media (min-width: 768px) {
@@ -101,4 +102,40 @@
     color: var(--color-light);
     z-index: 3;
     max-width: 60%;
+}
+
+.index__hero {
+    position: relative;
+    padding: var(--spc-mid) var(--margin);
+    color: var(--color-dark);
+    margin-bottom: var(--spc-mid);
+}
+
+.index__hero .glossary-highlight {
+    color: var(--color-light);
+}
+
+.index__hero--title {
+    position: relative;
+    z-index: 1;
+    max-width: 65%;
+    margin-bottom: 0.1rem;
+}
+
+.index__hero--intro {
+    position: relative;
+    z-index: 1;
+    max-width: 65%;
+    margin-top: 0;
+}
+
+.index__hero--shape-back {
+    position: absolute;
+    top: 9em;
+    left: 0;
+    width: 70%;
+    height: 23em;
+    background-color: var(--color-red);
+    border-radius: 0 300px 300px 0;
+    z-index: -1;
 }
