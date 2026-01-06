@@ -62,7 +62,9 @@
 
     <main>
         <div class="article__hero" id="hero">
-            <img class="article__hero--illu" src="/assets/img/m_h_mit.webp" alt="Photo of Margaret Hamilton at MIT" />
+            <div class="article__hero--illu">
+                <img src="/assets/img/m_h_mit.webp" alt="Photo of Margaret Hamilton at MIT" />
+            </div>
             <h1 class="article__title">Pioneer of Programming</h1>
             <p class="article__legend">
                 Written by Lola Brouart on 10/17/2025
@@ -95,11 +97,11 @@
             </p>
 
             <figure class="article__illu">
-                <img class="article__illu" src="/assets/img/m_h_working.webp"
+                <img class="article__illu--photo" src="/assets/img/m_h_working.webp"
                     alt="Photo de Margaret Hamilton travaillant" loading="lazy" />
-                <figcaption class="article__illu--legend">Margaret Hamilton working on the Apollo program code.
-                    - NASA</figcaption>
             </figure>
+            <p class="article__illu--legend">Margaret Hamilton working on the Apollo program code.
+                - NASA</p>
             <p class="article__text">
                 A few key words to understand her work:
             <ul class="article__list">
@@ -122,8 +124,10 @@
                 <ul class="u-list-unstyled">
                     <li class="card">
                         <a href="/en/apollo11.html" class="card__link">
-                            <img class="card__image" src="/assets/img/apollo11.webp" alt="Photo of the Apollo 11 launch"
-                                loading="lazy" />
+                            <div class="card__image-wrapper">
+                                <img class="card__image" src="/assets/img/apollo11.webp"
+                                    alt="Photo of the Apollo 11 launch" loading="lazy" />
+                            </div>
                             <div class="card__content">
                                 <div class="card__circle"></div>
                                 <div class="card__text">

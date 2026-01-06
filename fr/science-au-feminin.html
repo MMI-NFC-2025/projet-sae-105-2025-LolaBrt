@@ -61,8 +61,10 @@
 
     <main>
         <div class="article__hero" id="hero">
-            <img class="article__hero--illu" src="/assets/img/litt_hero.webp"
-                alt="Extrait du film avec les scientifiques du film Les Figures de l'Ombre" />
+            <div class="article__hero--illu">
+                <img src="/assets/img/litt_hero.webp"
+                    alt="Extrait du film avec les scientifiques du film Les Figures de l'Ombre" />
+            </div>
             <h1 class="article__title">La science se raconte au féminin</h1>
             <p class="article__legend">
                 Écrit par Lola Brouart le 17/10/2025
@@ -90,10 +92,11 @@
             </p>
 
             <figure class="article__illu">
-                <img src="/assets/img/m_h_books.webp" alt="Photo de Margaret Hamilton" loading="lazy" />
-                <figcaption class="article__illu--legend">Margaret Hamilton pose à côté du code informatique qu'elle a
-                    rédigé. (Boston, 1969.) Wikimedia Commons</figcaption>
+                <img class="article__illu--photo" src="/assets/img/m_h_books.webp" alt="Photo de Margaret Hamilton"
+                    loading="lazy" />
             </figure>
+            <p class="article__illu--legend">Margaret Hamilton pose à côté du code informatique qu'elle a
+                rédigé. (Boston, 1969.) Wikimedia Commons</p>
 
             <p class="article__text">
                 Plusieurs livres permettent d’explorer ces thématiques :
@@ -138,8 +141,10 @@
                 <ul class="u-list-unstyled">
                     <li class="card__item">
                         <a href="/fr/hidden-figures.html" class="card__link">
-                            <img class="card__image" src="/assets/img/hidden_figures_thumbnail.webp"
-                                alt="Affiche du film Les figures de l'ombre" loading="lazy" />
+                            <div class="card__image-wrapper">
+                                <img class="card__image" src="/assets/img/hidden_figures_thumbnail.webp"
+                                    alt="Affiche du film Les figures de l'ombre" loading="lazy" />
+                            </div>
                             <h3 class="card__title">Les figures de l'ombre</h3>
                             <p class="card__legend">
                                 Le combat de femmes afro-américaines à la NASA, parallèle à celui
@@ -150,8 +155,10 @@
                     </li>
                     <li class="card__item">
                         <a href="/fr/lumieres-feminines.html" class="card__link">
-                            <img class="card__image" src="/assets/img/lights_hero.webp" alt="Photo de Marie Curie"
-                                loading="lazy" />
+                            <div class="card__image-wrapper">
+                                <img class="card__image" src="/assets/img/lights_hero.webp" alt="Photo de Marie Curie"
+                                    loading="lazy" />
+                            </div>
                             <h3 class="card__title">Lumières féminines</h3>
                             <p class="card__legend">
                                 L’invisibilisation des femmes de science et pourquoi il est nécessaire
@@ -161,8 +168,10 @@
                     </li>
                     <li class="card__item">
                         <a href="/fr/films.html" class="card__link">
-                            <img class="card__image" src="/assets/img/films_hero.webp" alt="Affiche du film Radioactive"
-                                loading="lazy" />
+                            <div class="card__image-wrapper">
+                                <img class="card__image" src="/assets/img/films_hero.webp"
+                                    alt="Affiche du film Radioactive" loading="lazy" />
+                            </div>
                             <h3 class="card__title">Autres films</h3>
                             <p class="card__legend">
                                 Sélection d’œuvres mettant en avant des femmes dans la science

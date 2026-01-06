@@ -62,7 +62,9 @@
 
     <main>
         <div class="article__hero" id="hero">
-            <img class="article__hero--illu" src="/assets/img/apollo11.webp" alt="Photo du décollage d'Apollo 11" />
+            <div class="article__hero--illu hero__illu--apollo">
+                <img src="/assets/img/apollo11.webp" alt="Photo du décollage d'Apollo 11" />
+            </div>
             <h1 class="article__title">Sauver Apollo 11</h1>
             <p class="article__legend">
                 Écrit par Lola Brouart le 17/10/2025
@@ -106,10 +108,10 @@
             </p>
 
             <figure class="article__illu">
-                <img src="/assets/img/m_h_working.webp" alt="Photo de Margaret Hamilton travaillant" loading="lazy" />
-                <figcaption class="article__illu--legend">Margaret Hamilton durant le programme Apollo. - NASA
-                </figcaption>
+                <img class="article__illu--photo" src="/assets/img/m_h_working.webp"
+                    alt="Photo de Margaret Hamilton travaillant" loading="lazy" />
             </figure>
+            <p class="article__illu--legend">Margaret Hamilton durant le programme Apollo. - NASA</p>
 
             <p class="article__text">
                 Cependant le logiciel de Margaret était intelligent. Il était conçu pour donner la priorité aux tâches
@@ -136,8 +138,10 @@
                 <ul class="u-list-unstyled">
                     <li class="card">
                         <a href="/fr/programmation.html" class="card__link">
-                            <img class="card__image" src="/assets/img/m_h_mit.webp"
-                                alt="Photo de Margaret Hamilton au MIT" loading="lazy" />
+                            <div class="card__image-wrapper">
+                                <img class="card__image" src="/assets/img/m_h_mit.webp"
+                                    alt="Photo de Margaret Hamilton au MIT" loading="lazy" />
+                            </div>
                             <div class="card__content">
                                 <div class="card__circle"></div>
                                 <div class="card__text">
