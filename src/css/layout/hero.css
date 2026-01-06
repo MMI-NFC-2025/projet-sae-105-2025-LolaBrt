@@ -94,3 +94,25 @@
     border-radius: 0 18.75rem 18.75rem 0;
     z-index: -1;
 }
+
+.shape-back__glossary {
+    position: absolute;
+    top: 9em;
+    left: 0;
+    width: 75%;
+    height: 9em;
+    background-color: var(--color-red);
+    border-radius: 0 18.75rem 18.75rem 0;
+    z-index: -1;
+}
+
+.shape-back__plusMatilda {
+    position: absolute;
+    top: 9em;
+    left: 0;
+    width: 75%;
+    height: 15em;
+    background-color: var(--color-red);
+    border-radius: 0 18.75rem 18.75rem 0;
+    z-index: -1;
+}

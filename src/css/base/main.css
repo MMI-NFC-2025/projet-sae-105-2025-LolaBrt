@@ -106,3 +106,15 @@ textarea {
     
 }
 
+.glossaire {
+    margin: var(--margin);
+}
+
+.glossaire__item {
+    margin-bottom: var(--spc-mid);
+}
+
+.glossaire__definition {
+    margin-top: -0.8em;
+}
+
