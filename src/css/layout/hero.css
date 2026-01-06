@@ -1,7 +1,7 @@
 .home__hero {
     position: relative;
     min-height: 100vh;
-    padding-top: 70px;
+    padding-top: 4.375rem;
     padding-left: 1rem;
     padding-right: 0;
     margin-right: 0;
@@ -11,36 +11,13 @@
     overflow: hidden;
 }
 
-@media (min-width: 768px) {
-    .home__hero {
-        padding-top: 90px;
-        padding-left: var(--margin);
-    }
-}
-
 .hero__image-wrapper {
     position: absolute;
-    top: 70px;
+    top: 4.375rem;
     right: 0;
-    width: 324px;
-    height: 479px;
+    width: 20.25rem;
+    height: 29.9375rem;
     z-index: 1;
-}
-
-@media (min-width: 768px) {
-    .hero__image-wrapper {
-        top: 90px;
-        right: 0;
-        width: 312px;
-        height: 599px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .hero__image-wrapper {
-        width: 380px;
-        height: 718px;
-    }
 }
 
 .hero__image {
@@ -48,7 +25,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 265px 0 0 265px;
+    border-radius: 16.5625rem 0 0 16.5625rem;
     display: block;
     z-index: 2;
 }
@@ -56,44 +33,22 @@
 .hero__shape-back {
     position: absolute;
     top: 0;
-    left: -10px;
-    width: 299px;
-    height: 369px;
+    left: -0.625rem;
+    width: 18.6875rem;
+    height: 23.0625rem;
     background-color: var(--color-red);
-    border-radius: 265px 0 0 265px;
+    border-radius: 16.5625rem 0 0 16.5625rem;
     z-index: -1;
-}
-
-@media (min-width: 768px) {
-    .hero__shape-back {
-        width: 337px;
-        height: 462px;
-        left: -15px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .hero__shape-back {
-        width: 411px;
-        height: 554px;
-        left: -20px;
-    }
 }
 
 .hero__title {
     position: relative;
-    margin-top: 300px;
+    margin-top: 18.75rem;
     margin-bottom: 0;
     color: var(--color-red);
     z-index: 3;
     max-width: 60%;
     line-height: 1;
-}
-
-@media (min-width: 768px) {
-    .hero__title {
-        margin-top: 400px;
-    }
 }
 
 .hero__subtitle {
@@ -136,6 +91,6 @@
     width: 75%;
     height: 24em;
     background-color: var(--color-red);
-    border-radius: 0 300px 300px 0;
+    border-radius: 0 18.75rem 18.75rem 0;
     z-index: -1;
 }

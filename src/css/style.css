@@ -21,6 +21,7 @@
 @import "layout/error-404.css";
 @import "layout/seeMore.css";
 @import "layout/portrait.css";
+@import "layout/article.css";
 
 /* Components */
 @import "components/CTA.css";

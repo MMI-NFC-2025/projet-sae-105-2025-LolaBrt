@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-    max-width: 400px;
+    max-width: 25rem;
     width: 100%;
 }
 
@@ -39,9 +39,9 @@
 }
 
 .error-404__input {
-    padding: 8px 15px;
-    border: 2px solid var(--color-light);
-    border-radius: 30px;
+    padding: 0.5rem 0.9375rem;
+    border: 0.125rem solid var(--color-light);
+    border-radius: 1.875rem;
     font-family: var(--font-family-body);
     font-size: var(--font-height-body);
     outline: none;
@@ -53,11 +53,11 @@
 }
 
 .error-404__button {
-    padding: 8px 20px;
+    padding: 0.5rem 1.25rem;
     background-color: var(--color-red);
     color: var(--color-light);
     border: none;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     font-family: var(--font-family-title);
     font-size: var(--font-height-body);
     cursor: pointer;
@@ -71,6 +71,6 @@
 
 .error-404__footer--logo {
     filter: none !important;
-    width: 100px;
+    width: 6.25rem;
     height: auto;
 }

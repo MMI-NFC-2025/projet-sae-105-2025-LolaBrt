@@ -1,11 +1,11 @@
 .CTA {
     display: block;
     width: fit-content;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     background-color: var(--color-red);
     color: var(--color-light);
     text-decoration: none;
-    border-radius: 60px;
+    border-radius: 3.75rem;
     transition: background-color 0.3s;
     font-family: var(--font-family-title);
     font-size: var(--font-height-h3);

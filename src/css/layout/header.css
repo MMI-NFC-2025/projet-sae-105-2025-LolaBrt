@@ -3,39 +3,26 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 70px;
+    height: 4.375rem;
     padding: 1rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--color-dark);
-    border-bottom: 1px solid var(--color-light-30);
+    border-bottom: 0.0625rem solid var(--color-light-30);
     z-index: 100;
 }
 
-@media (min-width: 768px) {
-    .header {
-        height: 90px;
-        padding: var(--margin) var(--margin);
-    }
-}
-
 .header__logo {
-    height: 40px;
+    height: 2.5rem;
     width: auto;
     flex-shrink: 0;
 }
 
-@media (min-width: 768px) {
-    .header__logo {
-        height: 50px;
-    }
-}
-
 .menu-btn {
     position: relative;
-    width: 28px;
-    height: 20px;
+    width: 1.75rem;
+    height: 1.25rem;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -43,29 +30,14 @@
     flex-shrink: 0;
 }
 
-@media (min-width: 768px) {
-    .menu-btn {
-        width: 32px;
-        height: 24px;
-    }
-}
-
 .language-switcher {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
     margin-left: auto;
     margin-right: 0.75rem;
     font-size: 0.875rem;
     flex-shrink: 0;
-}
-
-@media (min-width: 768px) {
-    .language-switcher {
-        gap: 0.5rem;
-        margin-right: 1.25rem;
-        font-size: 1rem;
-    }
 }
 
 .language {
@@ -80,7 +52,7 @@
 
 .menu-btn__bar {
     background-color: var(--color-light);
-    height: 2px;
+    height: 0.125rem;
     width: 100%;
     position: absolute;
     left: 0;
@@ -92,19 +64,9 @@
 }
 
 .menu-btn__bar--middle {
-    top: 9px;
+    top: 0.5625rem;
 }
 
 .menu-btn__bar--bottom {
-    top: 18px;
-}
-
-@media (min-width: 768px) {
-    .menu-btn__bar--middle {
-        top: 11px;
-    }
-
-    .menu-btn__bar--bottom {
-        top: 22px;
-    }
+    top: 1.125rem;
 }

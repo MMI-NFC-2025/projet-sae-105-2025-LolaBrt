@@ -17,10 +17,10 @@
 
     --font-family-body: 'Manrope', sans-serif;
     --font-family-title: 'Domine', serif;
-    --font-weight-bold: bold;
-    --font-weight-light: light;
-    --font-weight-medium-italic: medium italic;
-    --font-weight-semi-bold: semiBold;
+    --font-weight-bold: 700;
+    --font-weight-light: 300;
+    --font-weight-medium-italic: 500;
+    --font-weight-semi-bold: 600;
 }
 
 /* spaces */
