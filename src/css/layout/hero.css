@@ -139,7 +139,6 @@
 .circle__hero--title {
     position: relative;
     z-index: 1;
-    max-width: 65%;
     margin-bottom: 0.1rem;
 }
 

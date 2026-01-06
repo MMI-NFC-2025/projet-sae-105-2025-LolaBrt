@@ -118,3 +118,7 @@ textarea {
     margin-top: -0.8em;
 }
 
+.about {
+    margin: var(--margin);
+}
+
