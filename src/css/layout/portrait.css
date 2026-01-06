@@ -1,0 +1,129 @@
+/* Portrait Timeline Layout - Méthodologie BEM */
+
+/* Container principal du portrait */
+.portrait {
+    position: relative;
+    padding-left: calc(30px + 80px);
+    /* ligne horizontale + espace jusqu'aux portraits */
+    margin-left: 9px;
+    /* centrer le cercle de 18px sur la ligne de 3px */
+    margin-bottom: 4rem;
+}
+
+/* Container de la frise */
+.portrait__frise {
+    position: relative;
+}
+
+/* Ligne verticale principale (flèche) qui traverse tous les portraits */
+.portrait__arrow {
+    position: absolute;
+    left: 9px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: var(--color-red);
+    z-index: 1;
+}
+
+/* Cercle au début de la flèche (18px x 18px) */
+.portrait__arrow::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    background-color: var(--color-red);
+    border-radius: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+/* Triangle pointant vers le bas à la fin de la flèche */
+.portrait__arrow::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 18px solid var(--color-red);
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.portrait::after {
+    content: '';
+    position: absolute;
+    left: calc(30px + 80px + 50px);
+    top: 0;
+    width: 200px;
+    height: 200px;
+    background-color: var(--color-red);
+    border-radius: 50%;
+    z-index: 0;
+}
+
+
+
+
+
+.portrait__date {
+    font-size: var(--font-height-h3);
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+    position: absolute;
+    left: 12px;
+    top: 100px;
+    transform: translateY(-50%);
+    color: var(--color-red);
+    padding-left: 1rem;
+}
+
+.portrait__ornement {
+    position: absolute;
+    left: 12px;
+    top: 100px;
+    transform: translateY(-50%);
+    color: var(--color-red);
+    white-space: nowrap;
+    z-index: 2;
+    padding-left: 6rem;
+}
+
+
+
+.portrait__image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 80px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.portrait__name {
+    padding-top: 12px;
+    text-align: center;
+    font-size: var(--font-height-h3);
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+    width: 200px;
+    margin-left: 80px;
+}
+
+.portrait__description {
+    position: relative;
+    margin-top: 8px;
+    width: 200px;
+    margin-left: 80px;
+    font-size: var(--font-height-body);
+    font-family: var(--font-family-body);
+    line-height: 1.5;
+    text-align: left;
+}
