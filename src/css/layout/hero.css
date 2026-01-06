@@ -116,3 +116,36 @@
     border-radius: 0 18.75rem 18.75rem 0;
     z-index: -1;
 }
+
+.circle__hero {
+    position: relative;
+    padding: var(--spc-mid) var(--margin);
+    padding-top: 20rem;
+    color: var(--color-dark);
+    margin-bottom: var(--spc-mid);
+}
+
+.circle__hero--shape {
+    position: absolute;
+    top: 5rem;
+    left: 3rem;
+    width: 20rem;
+    height: 20rem;
+    background-color: var(--color-red);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.circle__hero--title {
+    position: relative;
+    z-index: 1;
+    max-width: 65%;
+    margin-bottom: 0.1rem;
+}
+
+.circle__hero--intro {
+    color: var(--color-light);
+    position: relative;
+    z-index: 1;
+    margin-top: 0;
+}

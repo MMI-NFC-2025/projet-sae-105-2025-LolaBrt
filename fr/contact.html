@@ -61,22 +61,33 @@
     </header>
 
     <div class="circle__hero" id="hero">
+        <div class="circle__hero--shape"></div>
         <h1 class="circle__hero--title">Contact</h1>
         <p class="circle__hero--intro">
-            Une question ? Une recommendation ? Contactez-nous !
+            Une question ? Une recommendation ?<br /> Contactez-nous !
         </p>
     </div>
 
     <section class="form">
         <h2 class="u-sr-only">Formulaire à remplir pour nous contacter</h2>
-        <p class="form__text">Nom :</p>
-        <p class="form__text">Prénom :</p>
-        <p class="form__text">Email :</p>
-        <p class="form__text">Message :</p>
+        <div class="form__field">
+            <label class="form__label">Nom</label>
+            <div class="form__input"></div>
+        </div>
+        <div class="form__field">
+            <label class="form__label">Prénom</label>
+            <div class="form__input"></div>
+        </div>
+        <div class="form__field">
+            <label class="form__label">Adresse e-mail*</label>
+            <div class="form__input"></div>
+        </div>
+        <div class="form__field">
+            <label class="form__label">Votre message*</label>
+            <div class="form__textarea"></div>
+        </div>
+        <a class="CTA" href="/">Envoyer !</a>
     </section>
-
-    <a class="CTA" href="/">Envoyer !
-    </a>
 
 
     <a href="#hero" class="ancre">
