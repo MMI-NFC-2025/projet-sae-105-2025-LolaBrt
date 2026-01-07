@@ -9,19 +9,27 @@ toggle.addEventListener("click", () => {
         nav.removeAttribute("hidden");
         toggle.setAttribute("aria-expanded", "true");
     } else {
-        nav.setAttribute("hidden", "");
-        toggle.setAttribute("aria-expanded", "false");
+        nav.classList.add("menu-closing");
+        setTimeout(() => {
+            nav.setAttribute("hidden", "");
+            nav.classList.remove("menu-closing");
+            toggle.setAttribute("aria-expanded", "false");
+        }, 300);
     }
 });
 
 if (menuBack) {
     menuBack.addEventListener("click", () => {
-        nav.setAttribute("hidden", "");
-        toggle.setAttribute("aria-expanded", "false");
+        nav.classList.add("menu-closing");
+        setTimeout(() => {
+            nav.setAttribute("hidden", "");
+            nav.classList.remove("menu-closing");
+            toggle.setAttribute("aria-expanded", "false");
+        }, 300);
     });
 }
 
-// Coloration automatique des termes du glossaire
+/*Coloration automatique des termes du glossaire*/
 const glossaryTerms = [
     'NASA',
     'Apollo 11',
@@ -40,7 +48,6 @@ const glossaryTerms = [
     'Discrimination de genre'
 ];
 
-// Attendre que le DOM soit chargé
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', highlightGlossaryTerms);
 } else {
@@ -48,14 +55,12 @@ if (document.readyState === 'loading') {
 }
 
 function highlightGlossaryTerms() {
-    // Sélectionner tous les paragraphes (sauf ceux du glossaire lui-même)
     const paragraphs = document.querySelectorAll('p:not(.glossaire__definition)');
 
     paragraphs.forEach(paragraph => {
         let html = paragraph.innerHTML;
 
         glossaryTerms.forEach(term => {
-            // Créer une regex pour matcher le terme entier (avec limites de mots)
             const regex = new RegExp(`\\b(${term})\\b`, 'gi');
             html = html.replace(regex, '<span class="glossary-highlight">$1</span>');
         });

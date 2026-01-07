@@ -8,10 +8,35 @@
     z-index: 200;
     padding: var(--margin);
     overflow-y: auto;
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .header__menu[hidden] {
     display: none;
+}
+
+.header__menu.menu-closing {
+    animation: fadeOut 0.3s ease-out;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
 }
 
 .menu__background {
@@ -66,6 +91,26 @@
 
 .menu__item {
     padding: 0;
+    opacity: 0;
+    animation: fadeInItem 0.4s ease-out forwards;
+}
+
+.menu__item:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.menu__item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.menu__item:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+@keyframes fadeInItem {
+    to {
+        opacity: 1;
+    }
 }
 
 .menu__link {
