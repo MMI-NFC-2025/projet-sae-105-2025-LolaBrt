@@ -22,6 +22,44 @@
 </head>
 
 <body>
+    <header class="header">
+        <a class="header__link" href="/en/index.html">
+            <img class="header__logo" src="/assets/favicons/favicon2.svg" alt="Site logo" />
+        </a>
+
+        <div class="language-switcher">
+            <a class="language" href="/en/index.html">EN</a>
+            <span class="language-separator">/</span>
+            <a class="language" href="/fr/index.html">FR</a>
+        </div>
+
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+            <span class="menu-btn__bar menu-btn__bar--middle" aria-hidden="true"></span>
+            <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+        </button>
+
+        <nav class="header__menu" id="mainNav" hidden>
+            <div class="menu__background"></div>
+
+            <button class="menu-back" aria-label="close menu">
+                <img src="/assets/icons/menu_back.svg" alt="back" />
+            </button>
+
+            <ul class="menu__list u-list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/margaret-hamilton.html">&rarr; Margaret Hamilton</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/heroines-scientifiques.html">&rarr; Scientific Heroines</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/matilda-through-ages.html">&rarr; Matildas Through the Ages</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
         <section class="error-404">
             <h1 class="error-404__title">404</h1>
@@ -38,8 +76,8 @@
         </section>
     </main>
 
-    <footer class="error-404">
-        <img class="error-404__footer--logo" src="/assets/img/logos/logo mmi blanc.png"
+    <footer class="error-404__footer">
+        <img class="error-404__footer--logo" src="/assets/img/logo-mmi.webp"
             alt="Métiers du Multimédia et de l'Internet logo" />
         <p class="error-404__footer--text">Lola Brouart MMI1 C1</p>
         <div class="error-404__footer--contact">
