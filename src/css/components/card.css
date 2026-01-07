@@ -11,6 +11,12 @@
     margin-bottom: var(--spc-mid);
 }
 
+ul.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .card {
     display: flex;
     gap: 0.8125rem;

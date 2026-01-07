@@ -3,7 +3,8 @@
     padding-left: 5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    margin-bottom: var(--spc-mid);
+    margin-bottom: var(--spc-lg);
+    overflow: hidden;
 }
 
 .portrait__arrow {
@@ -13,18 +14,6 @@
     bottom: 0;
     width: 0.1875rem;
     background-color: var(--color-red);
-}
-
-.portrait__arrow::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 1.125rem;
-    height: 1.125rem;
-    background-color: var(--color-red);
-    border-radius: 50%;
 }
 
 .portrait__arrow::after {
@@ -68,18 +57,6 @@
     position: relative;
     z-index: 1;
     filter: grayscale(100%);
-}
-
-.portrait__image::after {
-    content: '';
-    position: absolute;
-    left: -1.5rem;
-    top: 0;
-    width: 15rem;
-    height: 15rem;
-    background-color: var(--color-red);
-    border-radius: 50%;
-    z-index: -1;
 }
 
 .portrait__ornement {

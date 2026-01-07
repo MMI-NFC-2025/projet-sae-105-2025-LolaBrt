@@ -73,8 +73,10 @@
 .index__hero--title {
     position: relative;
     z-index: 1;
-    max-width: 65%;
+    max-width: 90%;
     margin-bottom: 0.1rem;
+    font-size: var(--font-height-h1);
+    line-height: 1;
 }
 
 .index__hero--intro {

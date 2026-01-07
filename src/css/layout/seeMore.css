@@ -1,5 +1,6 @@
 .seeMore {
-    margin: var(--margin);
+    margin-left: var(--margin);
+    margin-bottom: var(--spc-lg);
 }
 
 .seeMore__list {
