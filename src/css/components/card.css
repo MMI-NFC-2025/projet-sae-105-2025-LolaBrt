@@ -99,5 +99,76 @@ a[href*="films.html"] .card__image {
 }
 
 .card__content {
-        margin-bottom: var(--spc-s);
+    margin-bottom: var(--spc-s);
+}
+
+.card2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.card2__item {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    background-color: var(--color-dark);
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+
+.card2__link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.card2__image {
+    width: 100%;
+    height: 10.875rem;
+    object-fit: cover;
+    display: block;
+}
+
+.card2__title {
+    font-family: var(--font-family-title);
+    font-size: var(--font-height-h3);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-red);
+    margin: 0;
+    text-align: center;
+}
+
+.card2__legend {
+    font-size: var(--font-height-lgd);
+    color: var(--color-light);
+    margin: 0;
+    text-align: center;
+}
+
+.card2__image[src*="henrietta_leavitt"] {
+    object-position: center 30%;
+}
+
+.card2__image[src*="diane_holl"] {
+    object-position: center 20%;
+}
+
+.card2__image[src*="lise_meitner"] {
+    object-position: center 25%;
+}
+
+.card2__image[src*="alice_ball"] {
+    object-position: center 40%;
+}
+
+.card2__image[src*="chien_shiung_wu"] {
+    object-position: center 3%;
+}
+
+.card2__image[src*="katherine_johnson"] {
+    object-position: center 30%;
 }
