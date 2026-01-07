@@ -122,3 +122,6 @@ textarea {
     margin: var(--margin);
 }
 
+.home__intro {
+    margin: var(--margin);
+}
