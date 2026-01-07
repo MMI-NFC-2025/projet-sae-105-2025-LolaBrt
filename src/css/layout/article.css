@@ -116,6 +116,10 @@
     transform: scale(1.8) translateY(15%) translateX(-22%);
 }
 
+.hero__illu--programmation img {
+    object-position: center left;
+}
+
 .article__films {
     display: flex;
     flex-direction: column;
