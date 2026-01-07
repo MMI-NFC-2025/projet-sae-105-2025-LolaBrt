@@ -101,7 +101,7 @@ textarea {
     font-weight: normal;
 }
 
-.article__legend, .article__illu--legend {
+.article__legend, .article__illu--legend, .video__legend {
     font-style: italic;
     
 }
